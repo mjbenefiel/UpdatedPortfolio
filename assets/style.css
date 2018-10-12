@@ -91,7 +91,7 @@ p {
 .btn-launch {
     width:100%;
     max-width:200px;
-    background-color: #549657;
+    background-color:#450CE8;
     color:white;
     box-shadow: 0px 2px 5px 1px darkgrey;
 }
@@ -99,17 +99,24 @@ p {
 .btn-launch:hover,
 .btn-launch:focus {
     color: white;
-    background: #3d7140;
+    background: rgb(53, 13, 163);
 }
 
 .techUsed {
     font-size:54px;
     padding: 40px 0 0;
+    
+}
+
+.buttonWrap .btn {
+    margin-top: 5px;
+    margin-bottom:5px;
 }
 
 .techUsed i {
-    margin:0 15px;
+    margin: 15px;
 }
+
 
 .toolsUsed {
     font-size: 100px;
