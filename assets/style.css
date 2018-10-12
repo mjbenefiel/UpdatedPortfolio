@@ -163,8 +163,8 @@ p {
     text-align: center;
     width: 100%;
     background-color: #00989A;
-   -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); 
-    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%); 
+   /* -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);  */
+    /* clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);  */
     
   }
 
@@ -173,8 +173,8 @@ p {
     text-align: center;
     width: 100%;
     background-color: #E89C0C;
-    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 0%, 180% 100%, 0% 100%);
+    /* -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); */
+    /* clip-path: polygon(0% 0%, 100% 0%, 180% 100%, 0% 100%); */
   }
   
   .wrapIcon a {
@@ -242,10 +242,11 @@ p {
     background-size: cover;
     bottom: 0;
     left: 0;
-    opacity: .20;
+    opacity: .3;
     position: absolute;
     right: 0;
     top: 0;
+    z-index: -1;
  }
 
     /* PROJECT TITLES */
@@ -254,4 +255,8 @@ p {
 
     .projTitle {
         width: auto;
+    }
+
+    .profileImage {
+        opacity: 1;
     }
