@@ -24,7 +24,8 @@ p {
     height: 200px;
     width: 200px; 
     margin-bottom: 15px;
-    opacity: 1;
+    opacity: 1.0;
+   
 }
 
 .m-t-1 {
@@ -129,7 +130,7 @@ p {
 }
 
 .about {
-    margin-bottom:-35px;
+    margin-bottom:-5px;
     margin-right:-15px;
     
 }
@@ -162,8 +163,9 @@ p {
     text-align: center;
     width: 100%;
     background-color: #00989A;
-    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-     clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+   -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); 
+    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%); 
+    
   }
 
   .wrapIconAbout {
@@ -243,7 +245,8 @@ p {
     opacity: .20;
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+ }
 
     /* PROJECT TITLES */
 
