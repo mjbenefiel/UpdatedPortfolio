@@ -50,9 +50,50 @@ p {
 
 .repo-row {
     padding: 65px 10px;
+       
 }
 
+.aboutImg {
+    padding-top: 25px;
+       
+}
+
+
+.repoAbout {
+    padding-top: 25px;
+       
+}
+
+.iconDiv {
+    padding-bottom: 25px;
+       
+}
+
+
+
+
+.repo-row-1::before {
+  
+        position: absolute;
+        width: 115%;
+        height: 150%;
+        background: url('../assets/images/bgcpu.jpg') no-repeat center center fixed;
+        opacity: 1;
+        z-index: -1;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: .2;
+    
+  }
+
 .repo-row:nth-child(odd) {
+
   background-color: lightgrey;
   -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
@@ -163,8 +204,8 @@ p {
     text-align: center;
     width: 100%;
     background-color: #00989A;
-   /* -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);  */
-    /* clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);  */
+   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);  
+    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);  
     
   }
 
@@ -173,8 +214,8 @@ p {
     text-align: center;
     width: 100%;
     background-color: #E89C0C;
-    /* -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); */
-    /* clip-path: polygon(0% 0%, 100% 0%, 180% 100%, 0% 100%); */
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);  
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);  
   }
   
   .wrapIcon a {
@@ -247,16 +288,13 @@ p {
     right: 0;
     top: 0;
     z-index: -1;
+  
  }
 
     /* PROJECT TITLES */
 
    
 
-    .projTitle {
-        width: auto;
-    }
+   
 
-    .profileImage {
-        opacity: 1;
-    }
+   
