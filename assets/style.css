@@ -120,7 +120,8 @@ p {
     border-radius: 5px;
 }
 
-.btn-launch {
+.btn-launch,
+.btn-launch:focus {
     width:100%;
     max-width:200px;
     background-color:#450CE8;
@@ -128,11 +129,12 @@ p {
     box-shadow: 0px 2px 5px 1px darkgrey;
 }
 
-.btn-launch:hover,
-.btn-launch:focus {
+.btn-launch:hover {
     color: white;
     background: rgb(53, 13, 163);
 }
+
+
 
 .techUsed {
     font-size:54px;
