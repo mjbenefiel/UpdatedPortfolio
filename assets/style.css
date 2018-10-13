@@ -73,7 +73,7 @@ p {
 }
 
 .iconDiv {
-    padding-bottom: 25px;
+    padding-bottom: 5px;
        
 }
 
@@ -204,8 +204,9 @@ p {
     text-align: center;
     width: 100%;
     background-color: #E89C0C;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);  
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);  
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);  
+    clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0% 100%);  
+ 
   }
   
   .wrapIcon a {
