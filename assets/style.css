@@ -75,7 +75,7 @@ p {
 .repo-row-1::before {
   
         position: absolute;
-        width: 115%;
+        width: 100%;
         height: 150%;
         background: url('../assets/images/bgcpu.jpg') no-repeat center center fixed;
         opacity: 1;
